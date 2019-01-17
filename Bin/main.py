@@ -1,8 +1,8 @@
 import sys
 
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow
-from Libs.MainWindow import Ui_MainWindow
-from Libs.Role import Ui_Role
+from UI.MainWindow import Ui_MainWindow
+from UI.Role import Ui_Role
 
 
 class MWindow(QMainWindow, Ui_MainWindow):
@@ -15,7 +15,7 @@ class MWindow(QMainWindow, Ui_MainWindow):
         self.init_actions()
 
     def init_actions(self):
-        self.tabWidget_roles.currentChanged['int'].connect(self.add_role)
+        self.tabWidget_roles.currentChanged['int'].connect(self.actition_addRole)
 
     def init_role(self):
         r = self.tabWidget_role0
@@ -25,7 +25,7 @@ class MWindow(QMainWindow, Ui_MainWindow):
         self.tabWidget_roles.setTabText(self.tabWidget_roles.indexOf(self.tabWidget_role0), '角色1')
         self.roles.append(r)
 
-    def add_role(self):
+    def actition_addRole(self):
         if self.tabWidget_roles.currentWidget() is self.tabWidget_add:
             r = QWidget()
             role = Ui_Role()

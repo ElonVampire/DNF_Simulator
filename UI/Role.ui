@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>889</width>
-    <height>686</height>
+    <height>691</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,7 +48,83 @@
          </widget>
         </item>
         <item>
-         <widget class="QComboBox" name="cBox_character"/>
+         <widget class="QComboBox" name="cBox_character">
+          <item>
+           <property name="text">
+            <string>鬼剑士(男)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>鬼剑士(女)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>格斗家(男)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>格斗家(女)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>魔法师(男)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>魔法师(女)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>神枪手(男)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>神枪手(女)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>圣职者(男)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>圣职者(女)</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>暗夜使者</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>守护者</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>外传</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>魔枪士</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>枪剑士</string>
+           </property>
+          </item>
+         </widget>
         </item>
        </layout>
       </item>
@@ -82,7 +158,18 @@
          </widget>
         </item>
         <item>
-         <widget class="QComboBox" name="cbox_level"/>
+         <widget class="QComboBox" name="cbox_level">
+          <item>
+           <property name="text">
+            <string>95</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>90</string>
+           </property>
+          </item>
+         </widget>
         </item>
        </layout>
       </item>
@@ -581,8 +668,8 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>362</width>
-          <height>364</height>
+          <width>358</width>
+          <height>431</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="gridLayout">
@@ -1153,27 +1240,75 @@
       <widget class="QWidget" name="Options" native="true">
        <property name="geometry">
         <rect>
-         <x>430</x>
-         <y>20</y>
-         <width>401</width>
-         <height>291</height>
+         <x>420</x>
+         <y>10</y>
+         <width>391</width>
+         <height>81</height>
         </rect>
        </property>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>冒险团等级</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox"/>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>婚房等级</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QComboBox" name="comboBox_2"/>
+          </item>
+         </layout>
+        </item>
+       </layout>
       </widget>
      </widget>
      <widget class="QWidget" name="tabWidget_character_page_skill">
       <attribute name="title">
        <string>技能</string>
       </attribute>
+      <widget class="QTabWidget" name="tabWidget_skill">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>841</width>
+         <height>641</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tabWidget_page_sp">
+        <attribute name="title">
+         <string>SP</string>
+        </attribute>
+       </widget>
+       <widget class="QWidget" name="tabWidget_page_tp">
+        <attribute name="title">
+         <string>TP</string>
+        </attribute>
+       </widget>
+      </widget>
      </widget>
      <widget class="QWidget" name="tabWidget_character_page_damage">
       <attribute name="title">
        <string>伤害</string>
-      </attribute>
-     </widget>
-     <widget class="QWidget" name="tab_4">
-      <attribute name="title">
-       <string>Page</string>
       </attribute>
      </widget>
     </widget>

@@ -9,7 +9,7 @@ class SkillDamage:
         self.value = value
         self.phy = phy
         self.percentage = percentage
-        self.type = trend
+        self.trend = trend
 
 
 class Skill:
@@ -43,4 +43,12 @@ class Skill:
 
 class SkillTree:
     def __init__(self, character, profession):
+        pass
+
+    def add_skill(self,skill,position):
+        """
+        :type skill: Skill
+        :type position (int,int)
+        :return:
+        """
         pass

@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow
 from UI.MainWindow import Ui_MainWindow
 from UI.Role import Ui_Role
-
+from Config import Config
 
 class MWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -40,5 +40,6 @@ class MWindow(QMainWindow, Ui_MainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     w = MWindow()
+    print(Config.WorkDir)
     w.show()
     sys.exit(app.exec_())

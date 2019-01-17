@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'MainWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.2
+# Created by: PyQt5 UI code generator 5.11.3
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,8 +11,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(889, 789)
-        MainWindow.setMinimumSize(QtCore.QSize(889, 789))
+        MainWindow.resize(589, 560)
+        MainWindow.setMinimumSize(QtCore.QSize(0, 0))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Preferred, QtWidgets.QSizePolicy.Preferred)
         sizePolicy.setHorizontalStretch(0)
@@ -25,18 +25,27 @@ class Ui_MainWindow(object):
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
         self.gridLayout.setObjectName("gridLayout")
         self.tabWidget_roles = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget_roles.setEnabled(True)
         self.tabWidget_roles.setToolTipDuration(-10)
+        self.tabWidget_roles.setTabShape(QtWidgets.QTabWidget.Rounded)
+        self.tabWidget_roles.setElideMode(QtCore.Qt.ElideNone)
+        self.tabWidget_roles.setUsesScrollButtons(True)
+        self.tabWidget_roles.setDocumentMode(False)
+        self.tabWidget_roles.setTabsClosable(True)
+        self.tabWidget_roles.setMovable(False)
+        self.tabWidget_roles.setTabBarAutoHide(False)
         self.tabWidget_roles.setObjectName("tabWidget_roles")
         self.tabWidget_role0 = QtWidgets.QWidget()
         self.tabWidget_role0.setObjectName("tabWidget_role0")
         self.tabWidget_roles.addTab(self.tabWidget_role0, "")
         self.tabWidget_add = QtWidgets.QWidget()
+        self.tabWidget_add.setEnabled(False)
         self.tabWidget_add.setObjectName("tabWidget_add")
         self.tabWidget_roles.addTab(self.tabWidget_add, "")
         self.gridLayout.addWidget(self.tabWidget_roles, 0, 0, 1, 1)
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 889, 23))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 589, 23))
         self.menubar.setObjectName("menubar")
         self.files = QtWidgets.QMenu(self.menubar)
         self.files.setObjectName("files")
@@ -73,7 +82,7 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.help.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget_roles.setCurrentIndex(0)
+        self.tabWidget_roles.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

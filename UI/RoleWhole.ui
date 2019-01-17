@@ -6,15 +6,9 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>600</width>
-    <height>550</height>
+    <width>889</width>
+    <height>691</height>
    </rect>
-  </property>
-  <property name="minimumSize">
-   <size>
-    <width>600</width>
-    <height>550</height>
-   </size>
   </property>
   <property name="windowTitle">
    <string>Form</string>
@@ -24,8 +18,8 @@
     <widget class="QWidget" name="widget_character" native="true">
      <property name="minimumSize">
       <size>
-       <width>0</width>
-       <height>0</height>
+       <width>850</width>
+       <height>25</height>
       </size>
      </property>
      <layout class="QHBoxLayout" name="horizontalLayout">
@@ -204,8 +198,8 @@
     <widget class="QTabWidget" name="tabWidget_character">
      <property name="minimumSize">
       <size>
-       <width>0</width>
-       <height>0</height>
+       <width>859</width>
+       <height>637</height>
       </size>
      </property>
      <property name="tabPosition">
@@ -226,18 +220,12 @@
         <rect>
          <x>10</x>
          <y>10</y>
-         <width>371</width>
+         <width>381</width>
          <height>301</height>
         </rect>
        </property>
        <property name="currentIndex">
         <number>0</number>
-       </property>
-       <property name="tabsClosable">
-        <bool>false</bool>
-       </property>
-       <property name="movable">
-        <bool>false</bool>
        </property>
        <widget class="QWidget" name="tabWidget_equipment_page_equipment">
         <attribute name="title">
@@ -668,8 +656,8 @@
         <rect>
          <x>10</x>
          <y>320</y>
-         <width>371</width>
-         <height>171</height>
+         <width>381</width>
+         <height>281</height>
         </rect>
        </property>
        <property name="widgetResizable">
@@ -680,12 +668,48 @@
          <rect>
           <x>0</x>
           <y>0</y>
-          <width>369</width>
-          <height>169</height>
+          <width>358</width>
+          <height>431</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="gridLayout">
-         <item row="5" column="0">
+         <item row="8" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_moveSpeed">
+           <item>
+            <widget class="QLabel" name="label_attribute_moveSpeed">
+             <property name="text">
+              <string>移动速度</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_moveSpeed">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_phyCritRate">
+           <item>
+            <widget class="QLabel" name="lable_attribute_phyCritRate">
+             <property name="text">
+              <string>物理暴击</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_phyCritRate">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="12" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_fireStrengthening">
            <item>
             <widget class="QLabel" name="label_attribute_fireStrengthening">
@@ -703,7 +727,43 @@
            </item>
           </layout>
          </item>
+         <item row="12" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_fireResistance">
+           <item>
+            <widget class="QLabel" name="label_attribute_fireResistance">
+             <property name="text">
+              <string>火属性抗性</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_fireResistance">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
          <item row="7" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_attackSpeed">
+           <item>
+            <widget class="QLabel" name="label_attribute_attackSpeed">
+             <property name="text">
+              <string>攻击速度</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_attackSpeed">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="14" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_lightStrengthening">
            <item>
             <widget class="QLabel" name="label_attribute_lightStrengthening">
@@ -714,6 +774,240 @@
            </item>
            <item>
             <widget class="QLabel" name="attribute_lightStrengthening">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="14" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_34">
+           <item>
+            <widget class="QLabel" name="label_attribute_lightResistance">
+             <property name="text">
+              <string>光属性抗性</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_lightResistance">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="11" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_stiff">
+           <item>
+            <widget class="QLabel" name="label_attribute_stiff">
+             <property name="text">
+              <string>僵直度</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_stiff">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_magicDefense">
+           <item>
+            <widget class="QLabel" name="label_attribute_magicDefense">
+             <property name="text">
+              <string>魔法防御</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_magicDefense">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="10" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_mpRecovery">
+           <item>
+            <widget class="QLabel" name="label_attribute_mpRecovery">
+             <property name="text">
+              <string>MP恢复量</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_mpRecovery">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="13" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_iceStrengthening">
+           <item>
+            <widget class="QLabel" name="label_attribute_iceStrengthening">
+             <property name="text">
+              <string>冰属性强化</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_iceStrengthening">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="8" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_antiEvil">
+           <item>
+            <widget class="QLabel" name="label_attribute_antiEvil">
+             <property name="text">
+              <string>抗魔</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_antiEvil">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="10" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_hpRecovery">
+           <item>
+            <widget class="QLabel" name="label_attribute_hpRecovery">
+             <property name="text">
+              <string>HP恢复量</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_hpRecovery">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="7" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_singingSpeed">
+           <item>
+            <widget class="QLabel" name="label_attribute_singingSpeed">
+             <property name="text">
+              <string>释放速度</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_singingSpeed">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="9" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_hitRate">
+           <item>
+            <widget class="QLabel" name="label_attribute_hitRate">
+             <property name="text">
+              <string>命中率</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_hitRate">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="9" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_dodgeRate">
+           <item>
+            <widget class="QLabel" name="label_attribute_dodgeRate">
+             <property name="text">
+              <string>回避率</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_dodgeRage">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="13" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_iceResistance">
+           <item>
+            <widget class="QLabel" name="label_attribute_iceResistance">
+             <property name="text">
+              <string>冰属性抗性</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_iceResistance">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_magicCritRate">
+           <item>
+            <widget class="QLabel" name="label_attribute_magicCritRate">
+             <property name="text">
+              <string>魔法暴击</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_magicCritRate">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="11" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_stiffness">
+           <item>
+            <widget class="QLabel" name="label_attribute_stiffness">
+             <property name="text">
+              <string>硬直</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_stiffness">
              <property name="text">
               <string/>
              </property>
@@ -739,61 +1033,7 @@
            </item>
           </layout>
          </item>
-         <item row="1" column="1">
-          <layout class="QHBoxLayout" name="horizontalLayout_spirit">
-           <item>
-            <widget class="QLabel" name="label_attribute_spirit">
-             <property name="text">
-              <string>精神</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="attribute_spirit">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item row="2" column="1">
-          <layout class="QHBoxLayout" name="horizontalLayout_10">
-           <item>
-            <widget class="QLabel" name="label_attribute_magicAttack">
-             <property name="text">
-              <string>魔法攻击</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="attribute_magicAttack">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
          <item row="1" column="0">
-          <layout class="QHBoxLayout" name="horizontalLayout_stamina">
-           <item>
-            <widget class="QLabel" name="label_attribute_stamina">
-             <property name="text">
-              <string>体力</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="attribute_stamina">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item row="0" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_strength">
            <item>
             <widget class="QLabel" name="label_attribute_strength">
@@ -811,7 +1051,7 @@
            </item>
           </layout>
          </item>
-         <item row="0" column="1">
+         <item row="1" column="1">
           <layout class="QHBoxLayout" name="horizontalLayout_intelligence">
            <item>
             <widget class="QLabel" name="label_attribute_intelligence">
@@ -829,7 +1069,43 @@
            </item>
           </layout>
          </item>
-         <item row="2" column="0">
+         <item row="0" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_mp">
+           <item>
+            <widget class="QLabel" name="label_attribute_mp">
+             <property name="text">
+              <string>MP</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_mp">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_spirit">
+           <item>
+            <widget class="QLabel" name="label_attribute_spirit">
+             <property name="text">
+              <string>精神</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_spirit">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_phyAttack">
            <property name="spacing">
             <number>7</number>
@@ -850,17 +1126,17 @@
            </item>
           </layout>
          </item>
-         <item row="5" column="1">
-          <layout class="QHBoxLayout" name="horizontalLayout_iceStrengthening">
+         <item row="3" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_10">
            <item>
-            <widget class="QLabel" name="label_attribute_iceStrengthening">
+            <widget class="QLabel" name="label_attribute_magicAttack">
              <property name="text">
-              <string>冰属性强化</string>
+              <string>魔法攻击</string>
              </property>
             </widget>
            </item>
            <item>
-            <widget class="QLabel" name="attribute_iceStrengthening">
+            <widget class="QLabel" name="attribute_magicAttack">
              <property name="text">
               <string/>
              </property>
@@ -868,7 +1144,79 @@
            </item>
           </layout>
          </item>
-         <item row="7" column="1">
+         <item row="0" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_hp">
+           <item>
+            <widget class="QLabel" name="label_attribute_hp">
+             <property name="text">
+              <string>HP</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_hp">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="5" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_phyDefense">
+           <item>
+            <widget class="QLabel" name="label_attribute_phyDefense">
+             <property name="text">
+              <string>物理防御</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_phyDefense">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="2" column="0">
+          <layout class="QHBoxLayout" name="horizontalLayout_stamina">
+           <item>
+            <widget class="QLabel" name="label_attribute_stamina">
+             <property name="text">
+              <string>体力</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="attribute_stamina">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="15" column="1">
+          <layout class="QHBoxLayout" name="horizontalLayout_darkResistance">
+           <item>
+            <widget class="QLabel" name="label_attribute_darkResistance">
+             <property name="text">
+              <string>暗属性抗性</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="aattribute_darkResistance">
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="15" column="0">
           <layout class="QHBoxLayout" name="horizontalLayout_darkStrengthening">
            <item>
             <widget class="QLabel" name="label_attribute_darkStrengthening">
@@ -886,302 +1234,44 @@
            </item>
           </layout>
          </item>
-         <item row="3" column="0">
-          <layout class="QHBoxLayout" name="horizontalLayout_basePhyAttack">
-           <property name="spacing">
-            <number>7</number>
-           </property>
-           <item>
-            <widget class="QLabel" name="label_attribute_basePhyAttack">
-             <property name="text">
-              <string>基础物理攻击</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="attribute_basePhyAttack">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
-         <item row="3" column="1">
-          <layout class="QHBoxLayout" name="horizontalLayout_11">
-           <item>
-            <widget class="QLabel" name="label_attribute_magicAttack_2">
-             <property name="text">
-              <string>基础魔法攻击</string>
-             </property>
-            </widget>
-           </item>
-           <item>
-            <widget class="QLabel" name="attribute_magicAttack_2">
-             <property name="text">
-              <string/>
-             </property>
-            </widget>
-           </item>
-          </layout>
-         </item>
         </layout>
        </widget>
       </widget>
       <widget class="QWidget" name="Options" native="true">
        <property name="geometry">
         <rect>
-         <x>390</x>
-         <y>20</y>
-         <width>161</width>
-         <height>101</height>
+         <x>420</x>
+         <y>10</y>
+         <width>391</width>
+         <height>81</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout">
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_houseLevel_2">
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
           <item>
-           <widget class="QLabel" name="label_houseLevel_2">
-            <property name="text">
-             <string>工会属性</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QComboBox" name="comboBox_houseLevel_2"/>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout__advantureGroupLeve">
-          <item>
-           <widget class="QLabel" name="label_advantureGroupLeve">
+           <widget class="QLabel" name="label">
             <property name="text">
              <string>冒险团等级</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="comboBox_advantureGroupLevel"/>
+           <widget class="QComboBox" name="comboBox"/>
           </item>
          </layout>
         </item>
         <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_houseLevel">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
           <item>
-           <widget class="QLabel" name="label_houseLevel">
+           <widget class="QLabel" name="label_2">
             <property name="text">
              <string>婚房等级</string>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QComboBox" name="comboBox_houseLevel"/>
-          </item>
-         </layout>
-        </item>
-       </layout>
-      </widget>
-      <widget class="Line" name="line">
-       <property name="geometry">
-        <rect>
-         <x>390</x>
-         <y>110</y>
-         <width>161</width>
-         <height>31</height>
-        </rect>
-       </property>
-       <property name="orientation">
-        <enum>Qt::Horizontal</enum>
-       </property>
-      </widget>
-      <widget class="QWidget" name="widget" native="true">
-       <property name="geometry">
-        <rect>
-         <x>390</x>
-         <y>130</y>
-         <width>161</width>
-         <height>251</height>
-        </rect>
-       </property>
-       <layout class="QVBoxLayout" name="verticalLayout_2">
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_damageIncrease">
-          <item>
-           <widget class="QLabel" name="label_attribute_damageIncrease">
-            <property name="text">
-             <string>黄字</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_damageIncrease">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_additionalDamageIncrease">
-          <item>
-           <widget class="QLabel" name="label_attribute_additionalDamageIncrease">
-            <property name="text">
-             <string>黄追</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_additionalDamageIncrease">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_critDamageIncrease">
-          <item>
-           <widget class="QLabel" name="label_attribute_critDamageIncrease">
-            <property name="text">
-             <string>爆伤</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_critDamageIncrease">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_additionalCritDamageIncrease">
-          <item>
-           <widget class="QLabel" name="label_attribute_additionalCritDamageIncrease">
-            <property name="text">
-             <string>爆追</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_additionalCritDamageIncrease">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_additionalDamage">
-          <item>
-           <widget class="QLabel" name="label_attribute_additionalDamage">
-            <property name="text">
-             <string>白字</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_additionalDamage">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_tendencyAdditionalDamage">
-          <item>
-           <widget class="QLabel" name="label_attribute_tendencyAdditionalDamage">
-            <property name="text">
-             <string>属性白字</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_tendencyAdditionalDamage">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_strengthAndIntelligence">
-          <item>
-           <widget class="QLabel" name="label_attribute_strengthAndIntelligence">
-            <property name="text">
-             <string>力量/智力</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_strengthAndIntelligence">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_threeAttack">
-          <item>
-           <widget class="QLabel" name="label_attribute_threeAttack">
-            <property name="text">
-             <string>三攻</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_threeAttack">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_finalDamage">
-          <item>
-           <widget class="QLabel" name="label_attribute_finalDamage">
-            <property name="text">
-             <string>最终伤害</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_finalDamage">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </item>
-        <item>
-         <layout class="QHBoxLayout" name="horizontalLayout_skillDamage">
-          <item>
-           <widget class="QLabel" name="label_attribute_skillDamage">
-            <property name="text">
-             <string>技能攻击力</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="attribute_skillDamage">
-            <property name="text">
-             <string/>
-            </property>
-           </widget>
+           <widget class="QComboBox" name="comboBox_2"/>
           </item>
          </layout>
         </item>

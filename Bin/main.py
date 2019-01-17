@@ -19,6 +19,7 @@ class MWindow(QMainWindow, Ui_MainWindow):
         self.tabWidget_roles.tabCloseRequested.connect(self.close_Tab)
         self.tabWidget_roles.currentChanged['int'].connect(self.add_button_move)
 
+
     def close_Tab(self, index):
         if self.tabWidget_roles.count() > 1:
             if self.tabWidget_roles.indexOf(self.tabWidget_add) != index:

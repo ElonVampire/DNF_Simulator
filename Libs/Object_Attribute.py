@@ -17,7 +17,7 @@ class Attribute:
                            "attribute_hitRate": 0,
                            "attribute_dodgeRage": 0,
                            "attribute_iceResistance": 0,
-                           "attribute_magicCritRate": 0,
+                            "attribute_magicCritRate": 0,
                            "attribute_stiffness": 0,
                            "attribute_strength": 0,
                            "attribute_intelligence": 0,
@@ -52,8 +52,3 @@ class Attribute:
 
     def getAttribute(self, key):
         return self.attributes.get(key)
-if __name__ == '__main__':
-    a=Attribute(attribute_moveSpeed=10)
-    b=Attribute(attribute_moveSpeed=5)
-    c=a-b
-    print(c.getAttribute('attribute_moveSpeed'))

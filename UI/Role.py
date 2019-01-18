@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'Role.ui'
 #
-# Created by: PyQt5 UI code generator 5.11.3
+# Created by: PyQt5 UI code generator 5.11.2
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -11,9 +11,10 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Role(object):
     def setupUi(self, Role):
         Role.setObjectName("Role")
-        Role.resize(600, 550)
-        Role.setMinimumSize(QtCore.QSize(600, 550))
+        Role.resize(626, 575)
+        Role.setMinimumSize(QtCore.QSize(626, 575))
         self.gridLayout_2 = QtWidgets.QGridLayout(Role)
+        self.gridLayout_2.setContentsMargins(3, 3, 3, 3)
         self.gridLayout_2.setObjectName("gridLayout_2")
         self.widget_character = QtWidgets.QWidget(Role)
         self.widget_character.setMinimumSize(QtCore.QSize(0, 0))
@@ -79,7 +80,7 @@ class Ui_Role(object):
         self.horizontalLayout.addLayout(self.horizontalLayout_startReset)
         self.gridLayout_2.addWidget(self.widget_character, 0, 0, 1, 1)
         self.tabWidget_character = QtWidgets.QTabWidget(Role)
-        self.tabWidget_character.setMinimumSize(QtCore.QSize(0, 0))
+        self.tabWidget_character.setMinimumSize(QtCore.QSize(620, 532))
         self.tabWidget_character.setTabPosition(QtWidgets.QTabWidget.West)
         self.tabWidget_character.setObjectName("tabWidget_character")
         self.tabWidget_character_page_equipment = QtWidgets.QWidget()
@@ -225,11 +226,14 @@ class Ui_Role(object):
         self.medel_TopLeft.setObjectName("medel_TopLeft")
         self.tabWidget_equipment.addTab(self.tabWidget_equipment_tab_medel, "")
         self.scrollArea = QtWidgets.QScrollArea(self.tabWidget_character_page_equipment)
-        self.scrollArea.setGeometry(QtCore.QRect(10, 320, 371, 171))
+        self.scrollArea.setGeometry(QtCore.QRect(10, 320, 368, 200))
+        self.scrollArea.setAutoFillBackground(True)
+        self.scrollArea.setFrameShape(QtWidgets.QFrame.StyledPanel)
+        self.scrollArea.setFrameShadow(QtWidgets.QFrame.Plain)
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName("scrollArea")
         self.scrollAreaWidgetContents = QtWidgets.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 369, 169))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 366, 198))
         self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
         self.gridLayout = QtWidgets.QGridLayout(self.scrollAreaWidgetContents)
         self.gridLayout.setObjectName("gridLayout")
@@ -367,7 +371,7 @@ class Ui_Role(object):
         self.gridLayout.addLayout(self.horizontalLayout_11, 3, 1, 1, 1)
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.Options = QtWidgets.QWidget(self.tabWidget_character_page_equipment)
-        self.Options.setGeometry(QtCore.QRect(390, 20, 161, 101))
+        self.Options.setGeometry(QtCore.QRect(390, 20, 201, 101))
         self.Options.setObjectName("Options")
         self.verticalLayout = QtWidgets.QVBoxLayout(self.Options)
         self.verticalLayout.setContentsMargins(0, 0, 0, 0)
@@ -400,12 +404,12 @@ class Ui_Role(object):
         self.horizontalLayout_houseLevel.addWidget(self.comboBox_houseLevel)
         self.verticalLayout.addLayout(self.horizontalLayout_houseLevel)
         self.line = QtWidgets.QFrame(self.tabWidget_character_page_equipment)
-        self.line.setGeometry(QtCore.QRect(390, 110, 161, 31))
+        self.line.setGeometry(QtCore.QRect(390, 110, 201, 31))
         self.line.setFrameShape(QtWidgets.QFrame.HLine)
         self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
         self.line.setObjectName("line")
         self.widget = QtWidgets.QWidget(self.tabWidget_character_page_equipment)
-        self.widget.setGeometry(QtCore.QRect(390, 130, 161, 251))
+        self.widget.setGeometry(QtCore.QRect(390, 130, 201, 251))
         self.widget.setObjectName("widget")
         self.verticalLayout_2 = QtWidgets.QVBoxLayout(self.widget)
         self.verticalLayout_2.setContentsMargins(0, 0, 0, 0)

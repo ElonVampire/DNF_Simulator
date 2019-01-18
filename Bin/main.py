@@ -3,7 +3,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow
 from UI.MainWindow import Ui_MainWindow
 from UI.Role import Ui_Role
-
+from UI.Thanks import Ui_Thanks
 
 class MWindow(QMainWindow, Ui_MainWindow):
     def __init__(self):
@@ -11,13 +11,18 @@ class MWindow(QMainWindow, Ui_MainWindow):
         self.rolecount = 2
         self.setupUi(self)
         self.retranslateUi(self)
-        self.init_role()
+        self.init_pages()
         self.init_actions()
 
     def init_actions(self):
         self.tabWidget_roles.tabBarClicked['int'].connect(self.actition_addRole)
         self.tabWidget_roles.tabCloseRequested.connect(self.close_Tab)
         self.tabWidget_roles.currentChanged['int'].connect(self.add_button_move)
+    def init_pages(self):
+        self.init_role()
+        thanks=Ui_Thanks()
+        thanks.setupUi(self.tabWidget_add)
+        thanks.retranslateUi(self.tabWidget_add)
 
 
     def close_Tab(self, index):

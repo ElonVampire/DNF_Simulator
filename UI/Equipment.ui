@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>416</width>
-    <height>343</height>
+    <width>277</width>
+    <height>392</height>
    </rect>
   </property>
   <property name="maximumSize">
@@ -171,8 +171,8 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>404</width>
-        <height>150</height>
+        <width>265</width>
+        <height>215</height>
        </rect>
       </property>
       <layout class="QGridLayout" name="gridLayout">

@@ -9,6 +9,7 @@ class Role(Ui_Role):
 
     def __init__(self, character, profession):
         super(Role, self).__init__()
+        self.skillTres=None
         self.character = character
         self.profession = profession
 

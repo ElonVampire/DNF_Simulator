@@ -2,6 +2,9 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Spider/cike.json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Spider/roles/散打(女).json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Spider/roles/枪炮师(女).json" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Spider/roles/气功师(女).json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Spider/skill.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Spider/skill/弹药专家(女).json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Spider/刺客.json" charset="GBK" />

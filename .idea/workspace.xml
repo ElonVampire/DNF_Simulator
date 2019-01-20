@@ -2,15 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c522df3b-dfc3-49cf-8b66-91cddf328769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bin/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/equipsuit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/Spider_Equipment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spider/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spider/Spider_Equipments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spider/Spider_Rolebase.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spider/delerror.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Libs/Object_Role.py" beforeDir="false" afterPath="$PROJECT_DIR$/Libs/Object_Role.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Equipment.ui" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Equipment.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bin/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/元素师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/元素爆破师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/冰结师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/决战者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/刺客.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/剑魂.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/圣骑士(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/圣骑士(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/复仇者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/契魔者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/巫女.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/帕拉丁.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/异端审判者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/弹药专家(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/弹药专家(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/影舞者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/征战者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/战斗法师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/散打(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/散打(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/暗枪士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/暗殿骑士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/机械师(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/机械师(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/枪炮师(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/枪炮师(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/柔道家(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/柔道家(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/次元行者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/死灵术士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/气功师(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/气功师(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/流浪武士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/漫游枪手(女).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/漫游枪手(男).json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/狂战士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/狩猎者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/精灵骑士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/蓝拳圣使.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/血法师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/诱魔者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/逐风者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/阿修罗.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/驭剑士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/驱魔师.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/鬼泣.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/魔道学者.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/roles/龙骑士.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spider/test1.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +68,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DNF_Simulator$test.coverage" NAME="test Coverage Results" MODIFIED="1547902805411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bin" />
     <SUITE FILE_PATH="coverage/DNF_Simulator$main.coverage" NAME="main Coverage Results" MODIFIED="1547655885910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DNF_Simulator$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1547912755868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
-    <SUITE FILE_PATH="coverage/DNF_Simulator$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1547893206481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bin" />
+    <SUITE FILE_PATH="coverage/DNF_Simulator$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1547919725872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/DNF_Simulator$Spider_Rolebase.coverage" NAME="Spider_Rolebase Coverage Results" MODIFIED="1547980773135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/DNF_Simulator$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1547913349576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Bin" />
     <SUITE FILE_PATH="coverage/DNF_Simulator$Spider_Equipment.coverage" NAME="Spider_Equipment Coverage Results" MODIFIED="1547912795249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
+    <SUITE FILE_PATH="coverage/DNF_Simulator$Spider_Equipments.coverage" NAME="Spider_Equipments Coverage Results" MODIFIED="1547919465697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Spider" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -67,35 +115,79 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Spider_Equipment.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Spider/Spider_Equipment.py">
+    <leaf>
+      <file leaf-file-name="1.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/1.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="297">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Spider/test1.py">
+      <file leaf-file-name="2.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/2.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="378">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/builtins.py">
+      <file leaf-file-name="3.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/3.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
+            <state relative-caret-position="351">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="55.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/55.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="54.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/54.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="46.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/46.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/img/profession/2.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="3.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/img/profession/3.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="4.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/img/profession/4.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="4.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spider/Base/4.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -111,6 +203,7 @@
     <findStrings>
       <find>&quot;attribute_.*&quot;</find>
       <find>'</find>
+      <find>千</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;attribute_.*&quot;</replace>
@@ -148,7 +241,30 @@
         <option value="$PROJECT_DIR$/Spider/skill.json" />
         <option value="$PROJECT_DIR$/Spider/cike.json" />
         <option value="$PROJECT_DIR$/Spider/Spider_Equipment.py" />
+        <option value="$PROJECT_DIR$/Spider/roles/散打(女).json" />
+        <option value="$PROJECT_DIR$/Spider/roles/枪炮师(女).json" />
+        <option value="$PROJECT_DIR$/Spider/monsters/monsters.json" />
+        <option value="$PROJECT_DIR$/Spider/monsters/monster.json" />
+        <option value="$PROJECT_DIR$/Spider/roles/气功师(女).json" />
+        <option value="$PROJECT_DIR$/Spider/Equip/阿修罗/1.json" />
+        <option value="$PROJECT_DIR$/Spider/RoleSkills/test.json" />
         <option value="$PROJECT_DIR$/Spider/test1.py" />
+        <option value="$PROJECT_DIR$/Spider/Equip/驱魔师/4.json" />
+        <option value="$PROJECT_DIR$/Spider/Equip/刺客/4.json" />
+        <option value="$PROJECT_DIR$/Spider/Equipments/100060132.json" />
+        <option value="$PROJECT_DIR$/Spider/Equipments/99999996.json" />
+        <option value="$PROJECT_DIR$/Spider/Spider_Equipments.py" />
+        <option value="$PROJECT_DIR$/Spider/Equip/影舞者/1.json" />
+        <option value="$PROJECT_DIR$/Spider/Equip/龙骑士/2.json" />
+        <option value="$PROJECT_DIR$/Spider/Equipments/100070158.json" />
+        <option value="$PROJECT_DIR$/Spider/RoleSkills/元素师.json" />
+        <option value="$PROJECT_DIR$/Spider/Spider_Rolebase.py" />
+        <option value="$PROJECT_DIR$/Spider/Base/1.json" />
+        <option value="$PROJECT_DIR$/Spider/Base/2.json" />
+        <option value="$PROJECT_DIR$/Spider/Base/3.json" />
+        <option value="$PROJECT_DIR$/Spider/Base/55.json" />
+        <option value="$PROJECT_DIR$/Spider/Base/54.json" />
+        <option value="$PROJECT_DIR$/Spider/Base/46.json" />
       </list>
     </option>
   </component>
@@ -186,6 +302,11 @@
             <path>
               <item name="DNF_Simulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNF_Simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="Bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNF_Simulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNF_Simulator" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -197,13 +318,20 @@
               <item name="DNF_Simulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNF_Simulator" type="462c0819:PsiDirectoryNode" />
               <item name="Spider" type="462c0819:PsiDirectoryNode" />
+              <item name="Base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNF_Simulator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNF_Simulator" type="462c0819:PsiDirectoryNode" />
+              <item name="Spider" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DNF_Simulator" type="b2602c69:ProjectViewProjectNode" />
               <item name="DNF_Simulator" type="462c0819:PsiDirectoryNode" />
               <item name="Spider" type="462c0819:PsiDirectoryNode" />
-              <item name="skill" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="profession" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -219,15 +347,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Myproject\DNF_Simulator\UI" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\MyProject\DNF_Simulator\Libs" />
       <recent name="D:\MyProject\DNF_Simulator\Config" />
       <recent name="D:\MyProject\DNF_Simulator\Bin" />
       <recent name="E:\Myproject\DNF_Simulator\Libs" />
       <recent name="E:\Myproject\DNF_Simulator\Lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Myproject\DNF_Simulator\Spider" />
+      <recent name="E:\Myproject\DNF_Simulator\UI" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,26 +371,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Spider_Equipment">
-    <configuration name="Model_Role" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DNF_Simulator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Model" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\MyProject\DNF_Simulator\Libs\DbHandler.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Spider_Rolebase">
     <configuration name="Spider_Equipment" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNF_Simulator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -275,7 +385,45 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/Spider_Equipment.py" />
+      <option name="SCRIPT_NAME" value="E:\Myproject\DNF_Simulator\Spider\Spider_Skills.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Spider_Equipments" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DNF_Simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/Spider_Equipments.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Spider_Rolebase" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DNF_Simulator" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/Spider_Rolebase.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,25 +448,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DNF_Simulator" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bin/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DNF_Simulator" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,7 +461,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spider/test1.py" />
+      <option name="SCRIPT_NAME" value="E:\Myproject\DNF_Simulator\Spider\delerror.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -340,18 +469,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.Model_Role" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.Spider_Equipment" />
       <item itemvalue="Python.test1" />
+      <item itemvalue="Python.Spider_Equipments" />
+      <item itemvalue="Python.Spider_Rolebase" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Spider_Equipment" />
+        <item itemvalue="Python.Spider_Rolebase" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Spider_Equipments" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.Model_Role" />
+        <item itemvalue="Python.Spider_Equipment" />
       </list>
     </recent_temporary>
   </component>
@@ -370,18 +499,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25517994" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32294616" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25517994" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32279173" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20309168" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.41330424" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -393,6 +522,7 @@
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.41330424" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,318 +532,250 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtCore/QCoreApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/DbHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtWidgets/QTabWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8451">
-          <caret line="321" column="21" selection-start-line="321" selection-start-column="21" selection-end-line="321" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/MainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Role.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="561" column="19" lean-forward="true" selection-start-line="561" selection-start-column="19" selection-end-line="561" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Buff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3019" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Skill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#23#414#0" />
-            <element signature="e#434#863#0" />
-            <element signature="e#887#1097#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Attribute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bin/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Role.py" />
-    <entry file="file://$PROJECT_DIR$/Libs/MainWindow.py" />
-    <entry file="file://$PROJECT_DIR$/Libs/Data_IO.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="344" column="8" selection-start-line="344" selection-start-column="8" selection-end-line="344" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Equipment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Equipment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="116" column="54" selection-start-line="116" selection-start-column="54" selection-end-line="116" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2036615904/_sqlite3.py" />
-    <entry file="file://$PROJECT_DIR$/Config/Config.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Model/Models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtWidgets/QStyleFactory.py" />
-    <entry file="file://$PROJECT_DIR$/UI/RoleWhole.ui">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtWidgets/QWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13203">
-          <caret line="490" column="8" selection-start-line="490" selection-start-column="8" selection-end-line="490" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtCore/QCoreApplication.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5967">
-          <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/PyQt5/QtWidgets/QTabWidget.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8559">
-          <caret line="321" column="21" selection-start-line="321" selection-start-column="21" selection-end-line="321" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Lib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Attribute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/100125148/PyQt5/QtWidgets/QWidget.py" />
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Skill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="e#23#414#0" />
-            <element signature="e#434#863#0" />
-            <element signature="e#887#1097#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/DbHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Buff.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Thanks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-2036615904/PyQt5/QtWidgets/QWidget.py" />
-    <entry file="file://$PROJECT_DIR$/UI/MainWindow.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="26" column="45" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Libs/Object_Role.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/Role.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="558" column="67" selection-start-line="558" selection-start-column="64" selection-end-line="558" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bin/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bin/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/equipsuit">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.1/system/python_stubs/-791851423/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="475" column="4" selection-start-line="475" selection-start-column="4" selection-end-line="475" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/skill.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8747">
-          <caret line="5072" column="18" selection-start-line="5072" selection-start-column="18" selection-end-line="5072" selection-end-column="18" />
-          <folding>
-            <element signature="e#160369#173648#0" />
-            <element signature="e#173893#176220#0" />
-            <element signature="e#176240#178567#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/刺客.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-891" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/img/skill/6_3.png">
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/101030760.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/skills.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5238">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/cike.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="968" column="38" selection-start-line="968" selection-start-column="20" selection-end-line="968" selection-end-column="38" />
-          <folding>
-            <element signature="e#54#10464#0" />
-            <element signature="e#10482#28765#0" />
-            <element signature="e#1043198#1071408#0" />
-            <element signature="e#1071427#1364005#0" />
-            <element signature="e#1071435#1081199#0" />
-            <element signature="e#1081207#1088691#0" />
-            <element signature="e#1088915#1116995#0" />
-            <element signature="e#1088935#1091254#0" />
-            <element signature="e#1091274#1093593#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/skill/气功师(男).json">
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/剑魂/1.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/skill/弹药专家(女).json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1863" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/狂战士/1.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/skill/刺客.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2646" />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/鬼泣/1.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/test1.py">
+    <entry file="file://$PROJECT_DIR$/Spider/Equipments/100080437json" />
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100050050.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100090352.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100110584.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/99999998.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/逐风者/2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/逐风者/6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/圣骑士(女)/3.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/刺客/2.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/驭剑士/8.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/驭剑士/5.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/阿修罗/6.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/阿修罗/4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/阿修罗/1.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state>
+          <caret column="6370" selection-start-column="6370" selection-end-column="6370" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/res.json">
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/逐风者/1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/json/decoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        <state relative-caret-position="441">
+          <caret line="356" selection-start-line="356" selection-end-line="356" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Spider/Spider_Equipment.py">
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/驱魔师/4.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="-1944">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/影舞者/8.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equipments/100060132.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4293">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/刺客/4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2106">
+          <caret line="81" column="31" lean-forward="true" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/error.txt" />
+    <entry file="file://$PROJECT_DIR$/Spider/monsters/monster.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11951">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/delerror.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider_Skills.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100050203.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100050666.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100070469.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/equip/100080527.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/影舞者/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equipments/99999996.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/龙骑士/1.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equip/龙骑士/2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6831">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Equipments/100070158.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!block;n#data#0;n#!!top" />
+            <element signature="n#!!block;n#equip#0;n#!!block;n#data#0;n#!!top" />
+            <element signature="e#897#20912#0" />
+            <element signature="e#20927#27858#0" />
+            <element signature="n#!!block;n#dynamic_data#0;n#!!block;n#data#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/RoleSkills/元素师.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#54#10464#0" />
+            <element signature="e#10482#28765#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider_Equipments.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1917">
+          <caret line="81" column="18" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Spider_Rolebase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-443">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/profession/1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/profession/2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/profession/3.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/img/profession/4.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/4.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/55.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/54.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spider/Base/46.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
         </state>
       </provider>
     </entry>
